@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	static String PAGE_HEADER = "<html><head /><body>";
+	static String PAGE_HEADER = "<html><head><title>Login to Universidee</title></head><body style=\"background-color:#f0f0f0;\">";
 	static String PAGE_FOOTER = "</body></html>";
     /**
      * @see HttpServlet#HttpServlet()

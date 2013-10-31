@@ -39,4 +39,13 @@
     <servlet-name>MainServlet</servlet-name>
     <url-pattern>/MainServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <display-name>LoginService</display-name>
+    <servlet-name>LoginService</servlet-name>
+    <servlet-class>org.jboss.samples.webservices.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginService</servlet-name>
+    <url-pattern>/LoginService</url-pattern>
+  </servlet-mapping>
 </web-app>
